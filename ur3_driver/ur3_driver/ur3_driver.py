@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import robotiq_gripper
 from urx import Robot
 from ur_dashboard import UR_DASHBOARD
 import epics
