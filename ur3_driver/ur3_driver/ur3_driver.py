@@ -90,7 +90,7 @@ class UR3_8_ID_I(UR_DASHBOARD):
                 print('Failed attempt #{}'.format(i))
                 i+=1
 
-    def disconnect_robot_connection(self):
+    def disconnect_robot(self):
         """
         Description: Disconnects the socket connection with the UR robot
         """
@@ -479,7 +479,7 @@ class UR3_8_ID_I(UR_DASHBOARD):
         self.home_robot()
         self.place_pipette()
         print("-*-*-* Droplet experiment is completed *-*-*-")
-        self.disconnect_robot_connection()
+        self.disconnect_robot()
 
 
 if __name__ == "__main__":
