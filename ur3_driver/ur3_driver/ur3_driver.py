@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 
-from urx import Robot
-from ur_dashboard import UR_DASHBOARD
-import epics
-
 from multiprocessing.connection import wait
 from copy import deepcopy
 import threading
 from time import sleep
+
+from urx import Robot
+from ur_dashboard import UR_DASHBOARD
+import epics
+
+
 class UR3_8_ID_I(UR_DASHBOARD):
     """ 
     Description: This class creates a connection to the UR3e robot located in Argonne National Laboratory - APS 8_ID_I and contains functions to perform automated liquid handling experiments.
