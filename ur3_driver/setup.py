@@ -24,7 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'ur3_driver = ur3_driver.ur3_driver:main',
+            'ur3_driver = ur3_driver.ur3_driver:droplet_exp',
 
         ],
     },
