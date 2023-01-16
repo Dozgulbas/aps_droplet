@@ -13,14 +13,14 @@ This repository consists a documentation for the "Droplet" experiment to be perf
 ## Figures
 `/Data_Analysis/Figures/`
 ## Data
-`/Data_Analysis/Data`
+- `/Data_Analysis/Data`
 Assembly of .hdf result files from APS Beamline 8-ID-I containing g2 and I vs. Q data for plotting the figures in the manuscript.
 ## Python script
-`/ur3_driver/ur3_driver/ur3_driver.py` 
+- `/ur3_driver/ur3_driver/ur3_driver.py` 
 This program performs the full experiment by controlling UR3e robot, tool changer, electronic pipette and the camera. 
 # Installation 
 
 To install the URx and PyEPICS libraries 
 
-`pip install urx`
-`pip install pyepics`
+- `pip install urx`
+- `pip install pyepics`
